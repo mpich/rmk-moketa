@@ -20,11 +20,11 @@ rows = 4
 cols = 12
 layers = 4
 keymap = [
-    [
-        ["[", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "]"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+    [    
+        ["[",               "Q",               "W",               "E",               "R",               "T",                                   "Y",               "U",               "I",               "O",               "P",               "]"],
+        ["Grave",           "A",  "MT(S,LAlt,HRM)", "MT(D,LCtrl,HRM)",  "MT(F,LGui,HRM)",               "G",                                   "H",  "MT(F,RGui,HRM)", "MT(D,RCtrl,HRM)",  "MT(S,RAlt,HRM)",       "Semicolon",           "Quote"],
+        ["Backslash",       "Z",               "X",               "C",               "V",               "B",                                   "N",               "M",           "Comma",             "Dot",           "Slash",               "]"],
+        [                                                                    "LT(2,Tab)", "MT(Space,LShift)", "LT(1,Enter)", "LT(1,Escape)",   "MT(Backspace,RShift)","LT(2,Delete)"]
     ],
     [
         ["_", "TT(1)", "TG(2)"],
